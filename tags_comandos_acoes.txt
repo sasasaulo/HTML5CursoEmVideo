@@ -1,0 +1,22 @@
+Aula 7 - 
+html
+	b - deixa o texto em negrito
+	i - deixa o texto em itálico
+	u - (obsoleta) - deixa o texto sublinhado
+	s - (obsoleta) - deixa o texto riscado 
+	del - deixa o texto riscado
+	span - pode ser utilizada para formatar pequenos trechos de texto
+	sup - Sobrescrito (potencia)
+	sub - subescrito (fórmulas químicas)
+	code - tag para formatar código
+	pre - deixa o texto pré-formatado
+	
+	
+css
+	text-decoration: underline/overline/line-through/none
+	font-weight: normal/bold/bolder // pode colocar um valor entre 100 e 900
+	text-align: center/left/right/justify
+	text-indent: 50px
+	************* Nessa aula o css foi deixado em uma tag style no head do arquivo index*****************
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
