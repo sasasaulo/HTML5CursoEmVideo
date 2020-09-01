@@ -20,3 +20,50 @@ css
 	************* Nessa aula o css foi deixado em uma tag style no head do arquivo index*****************
 -----------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------
+
+Aula 8 - Cores
+css
+	background-color: greenyellow //Muda a cor do fundo da página
+	background-color: #36272A //Código RGB (hexadecimal)
+	background-color: rgb(35,137,195) //código rgb diretamente
+	background-color: hsl(165,81%,23%) //matiz, saturação e luminosidade
+	background-color: hsla(165,81%,23%,0-1) //matiz, saturação e luminosidade ---//Nível de transparencia varia entre 0 e 1;
+	background-image: url("fundo.jpg");
+	color: blue //Muda a cor da letra
+	color: rgb(0,0,0);
+	color: rgba(0,0,0,0-1); //Nível de transparencia varia entre 0 e 1;
+	************* Nessa aula apenas foi apresentado o conceito de cores, que não entrarão no site principal. Por isso o index não foi alterado.*****************
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Aula 9 - Imagens
+html
+	img src="" = Adiciona uma imagem
+	img width="xx" - prática não recomendada já que o arquivo inteiro da imagem é carregado. O ideal é diminuir a imagem com uma ferramenta de edição de imagens.
+	figure - tag para colocar imagens e colocar significado semântico a elas
+	figcaption - Adiciona uma legenda para a imagem (serve para sites de busca ou também para a inclusão social). É possível colocar estruturas complexas com tags e não somente textos simples.
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Aula 10 - Formatação de imagens
+**** separando html e css
+html
+	link rel="stylesheet" type="text/css" href="_css/estilo.css" --- usado para chamar o css
+	
+css
+	border: 8px solid red; - coloca borda na figura
+	width: 100%;
+	height: 100%;
+	box-shadow: 1px 1px 4px black; - adiciona uma sombra com os parametros: deslocamento horizontal, deslocamento vertical, espalhamento, cor
+	position: absolute; - vai ter uma posição absoluta dentro do container (no caso do figure.foto-legenda figcaption é a borda branca)
+	top: 0px;
+	position: relative; - ou seja, ele vai ficar aonde ele foi colocado no código html
+	padding: 10px;- cria um espaço da borda.
+	box-sizing: border-box; - cria uma box dentro da borda. é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (heights) dos elementos.
+	opacity: 0; - especifica a transparência de um elemento (0 até 1)
+	hover: ***figure.foto-legenda:hover figcaption*** - ele muda as características do objeto ao passar o mouse por cima.
+	transition: opacity 1s; - ele faz uma transição do parametro do elemento com o tempo estipulado;^
+
+	
+
+	
