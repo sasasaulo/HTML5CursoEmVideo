@@ -64,6 +64,23 @@ css
 	hover: ***figure.foto-legenda:hover figcaption*** - ele muda as características do objeto ao passar o mouse por cima.
 	transition: opacity 1s; - ele faz uma transição do parametro do elemento com o tempo estipulado;^
 
-	
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
 
+Aula 11 - Listas em HTML5 com OL e UL
+
+html
+	nav - cria uma área de navegação (usado no menu principal)
+	ol - lista ordenada - 
+		parâmetros: 
+			type="1" (numericamente);"a" (alfabética);"A" (alfabética maiúscula);"i" (números romanos); "I" (romanos maiúsculos); 
+			start="3" (a lista começará pelo caractere colocado) (aceita apenas valores numéricos)
+	li - item de lista
+	ul - lista não ordenada
+		parametros:
+			type="square" (quadrados); "circle" (circulos); "disc" (bolas pretas padrão)
+			
+	**** é possível criar listas encadeadas
+
+	
 	
